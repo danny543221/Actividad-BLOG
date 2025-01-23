@@ -1,0 +1,243 @@
+/* Estilos generales */
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-size: 100%;
+    vertical-align: baseline;
+}    
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-size: cover;
+}
+
+/* barra de opciones */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: rgba(3, 3, 3, 0.795);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10%;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 204, 255, 0.192);
+}
+
+/* video note 10 */
+header {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    height: 51vh;
+    background-image: url(imagen/GifNote10.gif);
+    background-size:inherit;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* cuadros imagenes primera pagina */
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin-top: 10px;
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+/* Pagina sobre nosotros */
+.mision-vision {
+    display: flex;
+    justify-content: space-between;
+    height: 206px;
+    padding: 100px;
+}
+
+.mision-vision h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff9d;
+    border-radius: 50px;
+    width: 90%;
+}
+
+.mision-vision h3 {
+    font-size: 1.2em;
+    color: #ffffff;
+    line-height: 1.6;
+    width: 90%;
+}
+
+/* barra bajo imagen inicio */
+.intro-text {
+    text-align: center;
+    color: white;
+    padding: 100px 0px; 
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    
+}
+
+.intro-text h1 {
+    font-size: 2.5em;
+}
+
+.intro-text h2 {
+    font-size: 2.5em;
+}
+
+/* barra inferior */
+footer {
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Página de contacto */
+
+.contacto-texto {
+    text-align: center;
+    color: white;
+    padding: 100px 0px; 
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px; 
+}
+
+.contacto-texto h1 {
+    font-size: 2.5em;
+}
+
+.contacto-texto p {
+    font-size: 1.2em;
+}
+/* Página de contacto  2*/
+
+.contacto-seccion {
+    padding: 20px;
+}
+
+.contacto-seccion h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(7, 7, 10);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 20px; 
+}
+
+.contacto-seccion p {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 20px; 
+    
+    
+}
+
+/* Pagina de Ubicación */
+img {
+    width: 41%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+    text-align: center;
+}
+
+/* Estilos adicionales para el video de fondo */
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
